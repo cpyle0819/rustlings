@@ -1,11 +1,11 @@
 use std::cmp::Ordering;
 
 fn bigger(a: i32, b: i32) -> i32 {
-  match a.cmp(&b) {
-    Ordering::Greater => a,
-    Ordering::Less => b,
-    Ordering::Equal => a
-  } 
+    match a.cmp(&b) {
+        Ordering::Greater => a,
+        Ordering::Less => b,
+        Ordering::Equal => a,
+    }
 }
 
 fn main() {
